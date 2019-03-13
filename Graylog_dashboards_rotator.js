@@ -36,7 +36,7 @@ if(+getCookie("ROTATION_TIME")) {
 	ROTATION_TIME = +getCookie("ROTATION_TIME");
 } else {
 	//Если не найдено, присваиваем значение по умолчанию
-	ROTATION_TIME = 60;
+	ROTATION_TIME = 60; //sec
 	document.cookie = "ROTATION_TIME="+ROTATION_TIME;
 }
 
